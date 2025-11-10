@@ -1,14 +1,19 @@
 
 ## 微星B460M迫击炮 MSI-B460M-MORTAR+i5-10500+iGPU-UHD630
 
+### 当前使用系统版本
+
+macOS Sequoia 版本15.7.2（版号24G325）
+
 ### 硬件配置
 
 |  配置   | 型号  |
 |  ----  | ----  |
-| CPU  | I5-10500 |
+| CPU  | Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz |
 | 主板  | B460M 迫击炮 |
-| 内存  | 威刚2666 8G*4 |
-| 显卡  | I5-10500 核显 UHD630  |
+| 内存  | 酷兽2666 16G*4 |
+| 显卡  | I7-10700 核显 UHD630 + RX470 |
+| 网卡 | AX210 |
 
 ### CPU支持
 - [x] 支持所有10代核显为UHD630的CPU
@@ -44,9 +49,9 @@
 
 ### EFI
 
-OpenCore: 1.0.5
+OpenCore: 1.0.6
 
-EFI下载地址: [Download](https://github.com/myqqiu/Hackintosh-B460M-MORTAR-i5-10500-iGPU-UHD630/releases)
+EFI下载地址: [Download](https://github.com/mrdong916/Hackintosh-B460M-MORTAR-i7-10700-RX470)
 
 
 ### 系统安装
@@ -70,6 +75,7 @@ EFI下载地址: [Download](https://github.com/myqqiu/Hackintosh-B460M-MORTAR-i5
 - [x] 核显硬件加速
 - [x] 板载声卡
 - [x] 板载网卡
+- [x] 无线网卡(AX210 隔空传送不可用)
 
 ### 板载网卡设置
 * 系统偏好设置 -> 网络 -> 以太网（高级） -> 硬件 -> 配置:手动, 速度:100baseTX(千兆网络环境可选择1000baseT), 双工:全双工, MTU:标准1500

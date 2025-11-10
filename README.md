@@ -2,6 +2,7 @@
 ## 微星B460M迫击炮 MSI-B460M-MORTAR+i7-10700+RX470
 
 > 感谢大佬的EFI [微星B460M迫击炮 MSI-B460M-MORTAR+i5-10500+iGPU-UHD630](https://github.com/MrChium/Hackintosh-B460M-MORTAR-i5-10500-iGPU-UHD630)
+> 
 > 本项目中的EFI基于上述EFI修改而来，CPU为i7-10700，增加了无线网卡和显卡，其他基本一致
 
 ### 当前使用系统版本
